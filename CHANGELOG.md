@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026.6.1
+
+### Changes
+- Fork build: based on upstream `2026.6.0`, keeping the accepted HEMS energy overview fallback.
+- Options UI: added an opt-in, read-only Modbus data setting for compatible vision/FoxESS-style systems. When enabled, the HEMS fallback also creates additional PV/grid/battery energy totals, BMS health/electrical sensors, inverter status/fault sensors, and battery policy/limit sensors where the registers validate.
+
 ## 2026.6.0
 
 ### Changes
